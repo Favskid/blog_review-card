@@ -45,6 +45,7 @@ main .image1 {
 }
 
 .container2 {
+    font-size: 25px;
     font-weight: 800;
    color: hsl(0, 0%, 7%);
 }
