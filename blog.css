@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Figtree';
+    max-width: 1440px;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    width: 350px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px;
+}
+
+main .image1 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: hsl(47, 88%, 63%);
+    width: 6rem;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.container1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.container2 {
+    font-weight: 800;
+   color: hsl(0, 0%, 7%);
+}
+
+.container3 {
+    font-weight: 500;
+   color: hsl(0, 0%, 42%);
+   font-size: 16px;
+}
+
+.user-avatar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name {
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.attribution { 
+     margin-top: 22px;
+    font-size: 11px; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover {
+    color: hsl(0, 0%, 7%);;
+}
+
+@media (max-width: 375px) {
+    main {
+        width: 250px;
+    }
+}
